@@ -10,7 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 All dependencies given in package.json file
 
 ```
-Give examples
+"nodejs": 6.2.2
+"npm": 3
 ```
 
 ### Installing
@@ -20,46 +21,26 @@ A step by step series of examples that tell you have to get a development env ru
 Stay what the step will be
 
 ```
-Give the example
+sudo npm update -g && sudo npm install -g concurrently lite-server typescript
+npm install
 ```
 
-And repeat
+### Running
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm start
+http://localhost:3000
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Ochen slozhno
 
 ## Built With
 
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
+* Angular2 - One framework. Mobile and desktop.
+* TypeScript - Javascript that scales.
+* Ruby on Rais - Ruby Web Framework
 
 ## Contributing
 
@@ -71,16 +52,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Anton Lebiodkin** - *Front end* - [AntonLebiodkin](https://github.com/AntonLebiodkin)
+* **Ihor Pogasiy** - *Back end* - [Meditate](https://github.com/Meditate)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Insiration: We want you to be happy and healthy, have fun!
